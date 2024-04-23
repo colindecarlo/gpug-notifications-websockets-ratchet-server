@@ -6,7 +6,7 @@ use Ratchet\Wamp\WampServer;
 use Ratchet\WebSocket\WsServer;
 use React\Socket\Server;
 
-require dirname(__DIR__) . '/ratchet-ws/vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 error_reporting(E_ALL & ~E_USER_DEPRECATED & ~E_DEPRECATED);
 
